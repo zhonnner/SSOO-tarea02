@@ -17,3 +17,7 @@ primero vi como funciona el comando basico curl, una vez guarde el resultado en 
 Asi que cree un script con un echo y lo deje asi, empece a trabajar con los comandos en la consola directamente y el primer paso que di fue el quitar la barra con el progreso de curl, gracias a google encontre la opcion -s, luego busque como quitar elementos de un json pero no tuve exito, y por eso busque como seleccionar informacion a mostrar y encontre como trabajar con el formato del archivo y finalmente ocupe redireccionamiento para guardar el archivo de la forma indicada.
 
 Finalmente copie el comando utilizado en el script abajo del echo y probe que funcionara mostrando lo mismo que salia en el documento de la tarea e ingresando los mismos comandos.
+
+Antes de entregar me di cuenta al probar el repositorio si funciona como deberia que el formato que creaba en el archivo items.json no era el solicitado, ya que
+le faltaba las lineas y parentesis del payload e items, por lo tanto busque jq delete en google y el primer link de stackoverflow me mostro la funcion del que
+servia para borrar, sumado a lo que aprendi anteriormente pude eliminar los items thumb y url_name del stdout y por ende del json posterior.
