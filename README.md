@@ -7,7 +7,7 @@ Comandos y Opciones Utilizados:
 2. echo: su funcion es monstrar mensajes en la consola, y lo ocupamos para mostrar el mensaje pedido al usuario ("JOSON CREADO CON EXITO").
 3. bash: su funcion en esta tarea es interpretar las instucciones dadas por el archivo script.
 4. jq: su funcion es ser un filtro que toma un input y te entrega un output modificado, lo ocupamos para cambiar el formato en que se muestra los datos de la pagina.
-5. > : su funcion es rediccionar y lo ocupamos para que el output que se mostraria en la consola(stdout) sea guardado en un archivo.
+5. > (o el simbolo mayor que): su funcion es rediccionar y lo ocupamos para que el output que se mostraria en la consola(stdout) sea guardado en un archivo.
 6. |: nos permite encadenar instrucciones y asi crear comandos mas legibles y cortos.
 
 Diseño de la Solucion:
